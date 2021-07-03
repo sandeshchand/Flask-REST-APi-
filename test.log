@@ -1,0 +1,228 @@
+2021-06-13 10:22:42,768, * Restarting with stat
+2021-06-13 10:22:43,773, * Debugger is active!
+2021-06-13 10:22:43,807, * Debugger PIN: 223-081-228
+2021-06-13 10:22:43,811, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:23:53,589, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\main.py', reloading
+2021-06-13 10:23:53,746, * Restarting with stat
+2021-06-13 10:23:54,743, * Debugger is active!
+2021-06-13 10:23:54,745, * Debugger PIN: 223-081-228
+2021-06-13 10:23:54,748, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:24:58,154,error has been occured.
+2021-06-13 10:24:58,156,__init__() missing 2 required positional arguments: 'id' and 'key'
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 32, in create_table
+    config_db=config("localhost","my_sql","root","Kanchanpur12$")
+TypeError: __init__() missing 2 required positional arguments: 'id' and 'key'
+2021-06-13 10:24:58,198,127.0.0.1 - - [13/Jun/2021 10:24:58] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:26:27,496, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:26:27,620, * Restarting with stat
+2021-06-13 10:26:28,835, * Debugger is active!
+2021-06-13 10:26:28,838, * Debugger PIN: 223-081-228
+2021-06-13 10:26:28,842, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:26:44,963, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:26:45,254, * Restarting with stat
+2021-06-13 10:26:46,400, * Debugger is active!
+2021-06-13 10:26:46,403, * Debugger PIN: 223-081-228
+2021-06-13 10:26:46,406, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:27:10,670, * Restarting with stat
+2021-06-13 10:27:11,640, * Debugger is active!
+2021-06-13 10:27:11,643, * Debugger PIN: 223-081-228
+2021-06-13 10:27:11,646, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:27:18,799,error has been occured.
+2021-06-13 10:27:18,799,__init__() missing 2 required positional arguments: 'id' and 'key'
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 32, in create_table
+    config_db=config("localhost","my_sql","root","Kanchanpur12$")
+TypeError: __init__() missing 2 required positional arguments: 'id' and 'key'
+2021-06-13 10:27:18,812,127.0.0.1 - - [13/Jun/2021 10:27:18] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:27:57,169, * Restarting with stat
+2021-06-13 10:27:58,104, * Debugger is active!
+2021-06-13 10:27:58,106, * Debugger PIN: 223-081-228
+2021-06-13 10:27:58,109, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:28:05,999,error has been occured.
+2021-06-13 10:28:05,999,1050 (42S01): Table 'jonty' already exists
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 38, in create_table
+    cursor.execute(query)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'jonty' already exists
+2021-06-13 10:28:06,028,127.0.0.1 - - [13/Jun/2021 10:28:06] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:28:31,412,MySql_table is  created  succesfully !!
+2021-06-13 10:28:31,414,127.0.0.1 - - [13/Jun/2021 10:28:31] "[37mPOST /create_table HTTP/1.1[0m" 200 -
+2021-06-13 10:31:24,729, * Restarting with stat
+2021-06-13 10:31:25,675, * Debugger is active!
+2021-06-13 10:31:25,677, * Debugger PIN: 223-081-228
+2021-06-13 10:31:25,681, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:31:47,664,error has been occured.
+2021-06-13 10:31:47,665,400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 5 column 5 (char 62)
+Traceback (most recent call last):
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 119, in get_json
+    rv = self.json_module.loads(data)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\flask\json\__init__.py", line 253, in loads
+    return _json.loads(s, **kwargs)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\__init__.py", line 367, in loads
+    return cls(**kw).decode(s)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 5 (char 62)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 21, in create_table
+    db = request.json['db_name']
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 69, in json
+    return self.get_json()
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 128, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\flask\wrappers.py", line 25, in on_json_loading_failed
+    raise BadRequest("Failed to decode JSON object: {0}".format(e))
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 5 column 5 (char 62)
+2021-06-13 10:31:47,737,127.0.0.1 - - [13/Jun/2021 10:31:47] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:33:02,380, * Restarting with stat
+2021-06-13 10:33:03,382, * Debugger is active!
+2021-06-13 10:33:03,385, * Debugger PIN: 223-081-228
+2021-06-13 10:33:03,388, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:33:06,863,error has been occured.
+2021-06-13 10:33:06,863,400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 5 column 5 (char 62)
+Traceback (most recent call last):
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 119, in get_json
+    rv = self.json_module.loads(data)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\flask\json\__init__.py", line 253, in loads
+    return _json.loads(s, **kwargs)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\__init__.py", line 367, in loads
+    return cls(**kw).decode(s)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 5 column 5 (char 62)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 21, in create_table
+    db = request.json['db_name']
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 69, in json
+    return self.get_json()
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\werkzeug\wrappers\json.py", line 128, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\flask\wrappers.py", line 25, in on_json_loading_failed
+    raise BadRequest("Failed to decode JSON object: {0}".format(e))
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 5 column 5 (char 62)
+2021-06-13 10:33:06,876,127.0.0.1 - - [13/Jun/2021 10:33:06] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:33:37,019, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\main.py', reloading
+2021-06-13 10:33:37,150, * Restarting with stat
+2021-06-13 10:33:38,329, * Debugger is active!
+2021-06-13 10:33:38,331, * Debugger PIN: 223-081-228
+2021-06-13 10:33:38,335, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:33:39,975,error has been occured.
+2021-06-13 10:33:39,976,1050 (42S01): Table 'jonty' already exists
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 39, in create_table
+    cursor.execute(query)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1050 (42S01): Table 'jonty' already exists
+2021-06-13 10:33:39,988,127.0.0.1 - - [13/Jun/2021 10:33:39] "[35m[1mPOST /create_table HTTP/1.1[0m" 500 -
+2021-06-13 10:34:12,800, * Restarting with stat
+2021-06-13 10:34:13,797, * Debugger is active!
+2021-06-13 10:34:13,799, * Debugger PIN: 223-081-228
+2021-06-13 10:34:13,803, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:34:16,272,MySql_table is  created  succesfully !!
+2021-06-13 10:34:16,273,127.0.0.1 - - [13/Jun/2021 10:34:16] "[37mPOST /create_table HTTP/1.1[0m" 200 -
+2021-06-13 10:39:18,160, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:39:18,258, * Restarting with stat
+2021-06-13 10:39:19,457, * Debugger is active!
+2021-06-13 10:39:19,460, * Debugger PIN: 223-081-228
+2021-06-13 10:39:19,464, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:39:54,915, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:39:55,005, * Restarting with stat
+2021-06-13 10:39:56,104, * Debugger is active!
+2021-06-13 10:39:56,107, * Debugger PIN: 223-081-228
+2021-06-13 10:39:56,110, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:40:29,462, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:40:29,566, * Restarting with stat
+2021-06-13 10:40:30,673, * Debugger is active!
+2021-06-13 10:40:30,677, * Debugger PIN: 223-081-228
+2021-06-13 10:40:30,681, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:41:05,155, * Detected change in 'C:\\Users\\sandesh\\Desktop\\Projects\\flaskProject\\config.py', reloading
+2021-06-13 10:41:05,272, * Restarting with stat
+2021-06-13 10:41:06,387, * Debugger is active!
+2021-06-13 10:41:06,389, * Debugger PIN: 223-081-228
+2021-06-13 10:41:06,393, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:41:44,167, * Restarting with stat
+2021-06-13 10:41:45,174, * Debugger is active!
+2021-06-13 10:41:45,177, * Debugger PIN: 223-081-228
+2021-06-13 10:41:45,180, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:42:01,674,MySql_db is connected succesfully !!
+2021-06-13 10:42:03,445,MySql_table is  created  succesfully !!
+2021-06-13 10:42:03,448,127.0.0.1 - - [13/Jun/2021 10:42:03] "[37mPOST /create_table HTTP/1.1[0m" 200 -
+2021-06-13 10:43:49,769,MySql_db is connected succesfully !!
+2021-06-13 10:43:49,949,MySql_table is  created  succesfully !!
+2021-06-13 10:43:49,950,127.0.0.1 - - [13/Jun/2021 10:43:49] "[37mPOST /Insert_data HTTP/1.1[0m" 200 -
+2021-06-13 10:44:39,189, * Restarting with stat
+2021-06-13 10:44:40,333, * Debugger is active!
+2021-06-13 10:44:40,336, * Debugger PIN: 223-081-228
+2021-06-13 10:44:40,339, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:44:42,375,MySql_db is connected succesfully !!
+2021-06-13 10:44:42,377,error has been occured.
+2021-06-13 10:44:42,377,1062 (23000): Duplicate entry '1' for key 'jonty.PRIMARY'
+Traceback (most recent call last):
+  File "C:\Users\sandesh\Desktop\Projects\flaskProject\main.py", line 99, in insertData
+    cursor.execute(query,data)
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\cursor.py", line 569, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 590, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\sandesh\anaconda3\envs\flaskProject\lib\site-packages\mysql\connector\connection.py", line 478, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.IntegrityError: 1062 (23000): Duplicate entry '1' for key 'jonty.PRIMARY'
+2021-06-13 10:44:42,391,127.0.0.1 - - [13/Jun/2021 10:44:42] "[35m[1mPOST /Insert_data HTTP/1.1[0m" 500 -
+2021-06-13 10:45:02,008,MySql_db is connected succesfully !!
+2021-06-13 10:45:03,855,MySql_table is  created  succesfully !!
+2021-06-13 10:45:03,856,127.0.0.1 - - [13/Jun/2021 10:45:03] "[37mPOST /create_table HTTP/1.1[0m" 200 -
+2021-06-13 10:45:10,030,MySql_db is connected succesfully !!
+2021-06-13 10:45:10,225,MySql_table is  inserted  succesfully !!
+2021-06-13 10:45:10,225,127.0.0.1 - - [13/Jun/2021 10:45:10] "[37mPOST /Insert_data HTTP/1.1[0m" 200 -
+2021-06-13 10:53:27,460, * Restarting with stat
+2021-06-13 10:53:28,541, * Debugger is active!
+2021-06-13 10:53:28,543, * Debugger PIN: 223-081-228
+2021-06-13 10:53:28,547, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:53:36,427,MySql_db is connected succesfully !!
+2021-06-13 10:53:36,519,MySql_table is  inserted  succesfully !!
+2021-06-13 10:53:36,520,127.0.0.1 - - [13/Jun/2021 10:53:36] "[37mPOST /Insert_data HTTP/1.1[0m" 200 -
+2021-06-13 10:54:10,285,MySql_db is connected succesfully !!
+2021-06-13 10:54:10,356,MySql_table is  inserted  succesfully !!
+2021-06-13 10:54:10,357,127.0.0.1 - - [13/Jun/2021 10:54:10] "[37mPOST /Insert_data HTTP/1.1[0m" 200 -
+2021-06-13 10:54:34,035,MySql_db is connected succesfully !!
+2021-06-13 10:54:34,140,MySql_table is  inserted  succesfully !!
+2021-06-13 10:54:34,141,127.0.0.1 - - [13/Jun/2021 10:54:34] "[37mPOST /Insert_data HTTP/1.1[0m" 200 -
+2021-06-13 10:54:57,049,MySql_db is connected succesfully !!
+2021-06-13 10:54:57,133,MySql_table is  created  succesfully !!
+2021-06-13 10:54:57,134,127.0.0.1 - - [13/Jun/2021 10:54:57] "[37mPUT /Update_table HTTP/1.1[0m" 200 -
+2021-06-13 10:55:44,190, * Restarting with stat
+2021-06-13 10:55:45,241, * Debugger is active!
+2021-06-13 10:55:45,243, * Debugger PIN: 223-081-228
+2021-06-13 10:55:45,248, * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-06-13 10:55:51,163,MySql_db is connected succesfully !!
+2021-06-13 10:55:51,271,MySql_table is  updated  succesfully !!
+2021-06-13 10:55:51,272,127.0.0.1 - - [13/Jun/2021 10:55:51] "[37mPUT /Update_table HTTP/1.1[0m" 200 -
+2021-06-13 10:56:20,558,MySql_db is connected succesfully !!
+2021-06-13 10:56:20,657,Mysql_Data is  deleted  succesfully !!
+2021-06-13 10:56:20,657,127.0.0.1 - - [13/Jun/2021 10:56:20] "[37mDELETE /delete HTTP/1.1[0m" 200 -
