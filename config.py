@@ -20,7 +20,7 @@ class config():
 
     def db_connect(self):
         try:
-            #mydb = connection.connect(host="localhost",database="my_sql",user="root",passwd="Kanchanpur12$",use_pure=True)
+            #mydb = connection.connect(host="localhost",database="my_sql",user="root",passwd="********",use_pure=True)
             self.mydb = connection.connect(host=self.host, database=self.database, user=self.user, passwd=self.passwd,
                                       use_pure=True)
             lg.info('MySql_db is connected succesfully !!')
@@ -37,11 +37,11 @@ class config_cassa():
     def cassandra_connect(self):
         try:
             cloud_config = {
-                'secure_connect_bundle': r'C:\Users\sandesh\Desktop\Projects\flaskProject\secure-connect-cassandra-db.zip'
+                'secure_connect_bundle': r'C:\Users\flaskProject\secure-connect-cassandra-db.zip'
             }
             '''
             auth_provider = PlainTextAuthProvider('jPsRZvewlXbuAwrPSdxFYROd',
-                                                  '2zaHidZkFRrjYOqvKCBud,Hz46mkdWkE,uNzU-m2wiZwLc9uJ,SX_7AY1eB.ttcMS+cTO8-S1TdSiS7ARn2nEdZEU8eXwRsrOwBSCpriS3vZv_K8pPFrnNrogw+dMp.j')
+                                                  '***************.j')
             '''
             auth_provider = PlainTextAuthProvider(self.id,self.key)
 
